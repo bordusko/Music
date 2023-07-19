@@ -26,7 +26,7 @@ upper = \relative c'' {
     \time 4/4
     \set fingeringOrientations = #'(down)
     \once\override DynamicLineSpanner.padding = #2.5
-    <e g c e>8->\arpeggio\f^\markup{\bold "Allegro brillante"} <c'-3 e-5>16( \once\override DynamicLineSpanner.padding = #2.5 <b d>)\p <a c>8-. <g-3 b-5>-. <f a>-. <e g>-. <dis fis>-. <f a>-. |
+    <e g c e>8->\arpeggio\f^\markup{\bold "Allegro NON brillante"} <c'-3 e-5>16( \once\override DynamicLineSpanner.padding = #2.5 <b d>)\p <a c>8-. <g-3 b-5>-. <f a>-. <e g>-. <dis fis>-. <f a>-. |
     \acciaccatura <f a>8 <e g>-. <dis fis>-. <e g>-. <f a>-. <e g>4-. r |
     \acciaccatura <e g>8 <d f>-. <cis e>-. <d f>-. <e g>-. <d f>4-. r | % 1.1 - 3
     \acciaccatura <d f>8 <c e>-. <b dis>-. <c e>-. <d f>-. <c e>4-. r |
